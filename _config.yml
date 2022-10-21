@@ -103,3 +103,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  
+# 修改仓库根目录的_config.yml，跳过对source/admin的渲染，否则source/admin/config.yml会于发布时丢失
+skip_render: admin/**
