@@ -12,20 +12,6 @@ language: en
 timezone: ''
 
 
-menu:
-  首页: / || fas fa-home
-  文章: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  娱乐||fas fa-list||hide: #隐藏多标签
-    # 音乐: /music/ || fas fa-music
-    相册: /Gallery/ || fas fa-image
-    番剧: /bangumis/ || fa fa-tv
-    # 电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
-  管理控制台：/admin/ || fa fa-tv
-
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
@@ -40,6 +26,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
+admin_dir: admin
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
