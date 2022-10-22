@@ -24,6 +24,7 @@ menu:
     # 电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  管理控制台：/admin/ || fa fa-tv
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
